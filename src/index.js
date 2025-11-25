@@ -4,8 +4,9 @@ import cors from "cors";
 import apiRoutes from "./routes/api.js";
 import redirectRoutes from "./routes/redirect.js";
 import healthRoutes from "./routes/health.js";
-import { errorHandler } from "./middlewares/errorHandler.js";
-import { notFound } from "./middlewares/notFound.js";
+import { errorHandler } from "./middleware/errorHandler.js";
+import { notFound } from "./middleware/notFound.js";
+
 
 const app = express();
 

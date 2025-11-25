@@ -1,4 +1,4 @@
-export function errorHandler(err, req, res, next) {
+export  function errorHandler(err, req, res, next) {
   console.error("🔥 Error:", err);
 
   // Mongoose validation error
